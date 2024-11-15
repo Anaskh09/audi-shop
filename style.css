@@ -1,0 +1,48 @@
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
+  height: 70px;
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li {
+  height: 50px;
+}
+.audi {
+  padding-top: 14px;
+}
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav .items {
+  color: #bdc3c7;
+  padding-top: 17px;
+}
+nav .items:hover {
+  color: black;
+}
+nav li:first-child {
+  margin-right: auto;
+}
+#contactbuttom {
+  max-width: 25em;
+}
+.footer {
+  background-color: #ced6e0;
+  box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    text-align: center;
+  }}
